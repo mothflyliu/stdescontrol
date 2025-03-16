@@ -21,10 +21,7 @@ Each repository above contains detailed setup instructions.
 4. **Step 4:** “Sct_RL.py”, run this for proposed SCT-Timed RL method for the optimal control algorithm based on SCT & reinforcement learning.
 
 #  Workspace description
-The manufacturing system is defined as a set of sub-automata $M_{i}=(Q_{i}, \Sigma_{i}, f_{i}, \Gamma _{i}, q_{i0}, Q_{im})$, which is shown in Fig. \ref{fig3} with the 
+The manufacturing system is defined as a set of sub-automata with the 
 software "Supremica", where MI and MS represent the machines featuring two states that transition through start and finish actions. MO, MP, and MR are designed as machines
-that operate on two different types of vehicles. MQ expresses both types can either leave or be reworked. The composition $G=MI \parallel MR \parallel Ms \parallel Mo \parallel Mp \parallel MQ$ 
-creates 540 unrestricted states of the system. 
+that operate on two different types of vehicles. MQ expresses both types can either leave or be reworked. The composition G=MI \parallel MR \parallel Ms \parallel Mo \parallel Mp \parallel MQ creates 540 unrestricted states of the system. 
 
-![Example Image](1.jpg)
-![image](https://github.com/user-attachments/assets/2de944f4-3ea4-4d0d-a339-033db285f815)
